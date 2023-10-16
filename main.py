@@ -10,12 +10,12 @@ def clone_repos(username):
     repos = response.json()
 
     for number, repo in enumerate(repos):
-        repo_name = repo['name']
-        repo_url = repo['clone_url']
+        repo_name = repo["name"]
+        repo_url = repo["clone_url"]
         repo_path = os.path.join("cloned_repos", repo_name)
 
-        subprocess.run(['git', 'clone', repo_url, repo_path])
-        print("-" * 50 + f" {number + 1} : cloned '{repo_name}' successfully")
+        subprocess.run(["git", "clone", repo_url, repo_path])
+        print("-" * 50 + f' {number + 1} : cloned "{repo_name}" successfully')
 
     print("cloning complete")
 
