@@ -4,7 +4,7 @@ Clone all repositories under a user's name.
 
 ## Python Version
 
-This project was developed using Python 3.11.3.
+This project was developed using Python 3.12.0.
 
 ## Install Dependencies
 
