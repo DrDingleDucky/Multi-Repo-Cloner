@@ -1,10 +1,6 @@
-# Mult Repo Cloner
+# Multi Repo Cloner
 
-Clone all repositories under a user's name.
-
-## Python Version
-
-This project was developed using Python 3.12.0.
+Clone all repositories under a user's Github username.
 
 ## Install Dependencies
 
@@ -14,6 +10,6 @@ Install the necessary dependencies.
 pip install -r requirements.txt
 ```
 
-## How To Use
+## Notes
 
-Run `main.py` and enter a user's GitHub username.
+Run `main.py` and enter a user's Github username.
