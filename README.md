@@ -1,6 +1,6 @@
 # Multi Repo Cloner
 
-Clone all repositories under a user's Github username.
+Clone all repositories under a user's GitHub username.
 
 ## Install Dependencies
 
@@ -12,4 +12,4 @@ pip install -r requirements.txt
 
 ## Notes
 
-Run `main.py` and enter a user's Github username.
+Run `main.py` and enter a user's GitHub username.
