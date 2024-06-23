@@ -20,5 +20,5 @@ def clone_repos(username):
     print("cloning complete")
 
 
-username = input("username >>> ")
+username = input("username > ")
 clone_repos(username)
